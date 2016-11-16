@@ -7,19 +7,29 @@
 //
 
 import UIKit
-
+import CoreData
 class ViewController: UIViewController {
-
+    let coredataOperations = CoreDataOperations()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+// MARK: IBOutlets Connections
+    
+    @IBAction func saveRecords(_ sender: UIButton) {
+      coredataOperations.saveData()
     }
-
-
+    @IBAction func fetchDataRecords(_ sender: UIButton) {
+        coredataOperations.fetchData()
+    }
+    @IBAction func updateDataRecords(_ sender: UIButton) {
+        coredataOperations.updateRecords()
+    }
+    @IBAction func deletedataRecords(_ sender: UIButton) {
+        coredataOperations.deleteRecords()
+    }
+    
 }
 

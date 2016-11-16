@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1BBA0041DD202FC00BE1864 /* CoreDataOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BBA0031DD202FC00BE1864 /* CoreDataOperations.swift */; };
 		B1D042631DD1A0A9001B7D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D042621DD1A0A9001B7D17 /* AppDelegate.swift */; };
 		B1D042651DD1A0A9001B7D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D042641DD1A0A9001B7D17 /* ViewController.swift */; };
 		B1D042681DD1A0A9001B7D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D042661DD1A0A9001B7D17 /* Main.storyboard */; };
 		B1D0426B1DD1A0A9001B7D17 /* CoreDataRecords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1D042691DD1A0A9001B7D17 /* CoreDataRecords.xcdatamodeld */; };
 		B1D0426D1DD1A0A9001B7D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D0426C1DD1A0A9001B7D17 /* Assets.xcassets */; };
 		B1D042701DD1A0A9001B7D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D0426E1DD1A0A9001B7D17 /* LaunchScreen.storyboard */; };
+		B1D0427B1DD1AB85001B7D17 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0427A1DD1AB85001B7D17 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1BBA0031DD202FC00BE1864 /* CoreDataOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataOperations.swift; sourceTree = "<group>"; };
 		B1D0425F1DD1A0A9001B7D17 /* CoreDataRecords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataRecords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D042621DD1A0A9001B7D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D042641DD1A0A9001B7D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		B1D0426C1DD1A0A9001B7D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D0426F1DD1A0A9001B7D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1D042711DD1A0A9001B7D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D0427A1DD1AB85001B7D17 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B1D0426E1DD1A0A9001B7D17 /* LaunchScreen.storyboard */,
 				B1D042711DD1A0A9001B7D17 /* Info.plist */,
 				B1D042691DD1A0A9001B7D17 /* CoreDataRecords.xcdatamodeld */,
+				B1D0427A1DD1AB85001B7D17 /* Person.swift */,
+				B1BBA0031DD202FC00BE1864 /* CoreDataOperations.swift */,
 			);
 			path = CoreDataRecords;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			files = (
 				B1D0426B1DD1A0A9001B7D17 /* CoreDataRecords.xcdatamodeld in Sources */,
 				B1D042651DD1A0A9001B7D17 /* ViewController.swift in Sources */,
+				B1D0427B1DD1AB85001B7D17 /* Person.swift in Sources */,
 				B1D042631DD1A0A9001B7D17 /* AppDelegate.swift in Sources */,
+				B1BBA0041DD202FC00BE1864 /* CoreDataOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +311,7 @@
 				B1D042761DD1A0A9001B7D17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
